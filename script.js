@@ -1,7 +1,11 @@
 const choiceButtons = document.querySelectorAll('[data-choice]')
+
 const finalColumn = document.querySelector('[data-final-column]')
+
 const computerScoreSpan = document.querySelector('[data-computer-score]')
+
 const yourScoreSpan = document.querySelector('[data-your-score]')
+
 const CHOICES = [{
         name: 'rock',
         emoji: '✊',
